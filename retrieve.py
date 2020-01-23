@@ -27,4 +27,4 @@ for i in range(1,len(rows)):
     df=df.append(pd.Series(values, index=columns), ignore_index=True)
 
 #convert dataframe to json
-df.to_json(r'C:\Users\xxx\ExtractionWikifediaToJSON.json2', orient='split' ,index=False)
+df.to_json(r'C:\Users\xxx\ExtractionWikifediaToJSON.json', orient='split' ,index=False)
